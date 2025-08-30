@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  /* background-color: rgb(195, 214, 255); */
+  /* color: white; */
+}
+.header {
+  color: white;
+  background-color: rgb(23, 32, 135);
+  padding: 10px;
+}
+h1 {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.movie {
+  color: black;
+  background-color: rgb(155, 153, 153);
+  border: 1px solid gray;
+  padding: 5px;
+  font-weight: bold;
+  text-align: start;
+  margin: 10px;
+  width: 10%;
+}
+.movie img {
+  height: 220px;
+  width: 100%;
+}
+
+.inc,
+.dec {
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  background-color: chocolate;
+  font-weight: bold;
+}
+.project2 {
+  color: white;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.data{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  color:black;
+}
+.datainside{
+  display: flex;
+  margin:10px;
+  justify-content: space-between;
+  width: 50%;
+  padding: 0px 10px 0px 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(118, 125, 117, 0.2) 0px 7px 29px 0px;
+}
